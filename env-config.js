@@ -1,5 +1,5 @@
-const prod = process.env.NODE_ENV === 'production'
+const prod = process.env.NODE_ENV === 'production';
 
 module.exports = {
-  'process.env.BACKEND_URL': prod ? '/nextjs/' : ''
+  'process.env.BACKEND_URL': prod ? '/next-gh-page-example' : ''
 }
