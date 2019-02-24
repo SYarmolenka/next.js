@@ -7,12 +7,12 @@ const debug = process.env.NODE_ENV !== "production";
 module.exports = {
   exportPathMap: function () {
     return {
-      "/": { page: "/" },
-      "/second": { page: "/second" },
+      "/nextjs/": { page: "/" },
+      "/nextjs/second": { page: "/second" },
     }
   },
   //assetPrefix: '',
-  assetPrefix: !debug ? '/Next-gh-page-example/' : '',
+  assetPrefix: !debug ? '/nextjs' : '',
   webpack: (config, { dev }) => {
     // Perform customizations to webpack config
     // console.log('webpack');
