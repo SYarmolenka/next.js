@@ -15,7 +15,6 @@ module.exports = {
     }
   },
   assetPrefix,
-  assetPrefix: !isProd ? '' : '',
   webpack: config => {
     config.plugins.push(
       new webpack.DefinePlugin({
