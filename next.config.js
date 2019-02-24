@@ -7,7 +7,7 @@ module.exports = {
       "/second": { page: "/second" },
     }
   },
-  assetPrefix: !debug ? 'https://syarmolenka.github.io/next_js_example/' : '',
+  assetPrefix: !debug ? '/next_js_example/' : '',
   webpack: (config, { dev }) => {
     config.module.rules = config.module.rules.map(rule => {
       if(rule.loader === 'babel-loader') {
