@@ -16240,7 +16240,7 @@ var SecondPage = function SecondPage(_ref) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fsecond&absolutePagePath=%2FUsers%2Fsergeyermolenko%2Fgithub%2Fnext-js%2Fpages%2Fsecond.js ***!
   \****************************************************************************************************************************************/
@@ -16263,5 +16263,5 @@ module.exports = dll_92862a29917dee4fb2b1;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]));;
+},[[1,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=second.js.map
